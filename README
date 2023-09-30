@@ -42,14 +42,14 @@ window.addEventListener('devtoolschange', event => {
 
 3. Now, whenever the DevTools status changes, the 'devtoolschange' event will be triggered, and the status will be updated on your webpage.
 
-# Example
+## Example
 
 For a full example of how to use this DevTools detector, you can refer to the provided HTML file (index.html) and JavaScript module (devtools.js) in this repository.
 
-# Compatibility
+## Compatibility
 
 This DevTools detector works in most modern web browsers. However, keep in mind that browser behavior may change over time, and this detector may need updates to remain effective.
 
-# License
+## License
 
 This project is licensed under the MIT License. Feel free to use it in your projects and customize it as needed.
