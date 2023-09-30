@@ -2,7 +2,7 @@
 
 This JavaScript module allows you to detect whether the browser's developer tools (DevTools) are open or closed, providing a simple way to determine if a user is inspecting your web page's code.
 
-## How It Works
+###How It Works
 
 The `devtools` module employs various techniques to check the DevTools status:
 
@@ -12,7 +12,7 @@ The `devtools` module employs various techniques to check the DevTools status:
 
 The module then dispatches a custom event named `'devtoolschange'` with the status of the DevTools (open or closed).
 
-## Usage
+###Usage
 
 To use this DevTools detector in your project, follow these steps:
 
@@ -42,14 +42,14 @@ window.addEventListener('devtoolschange', event => {
 
 3. Now, whenever the DevTools status changes, the 'devtoolschange' event will be triggered, and the status will be updated on your webpage.
 
-## Example
+###Example
 
 For a full example of how to use this DevTools detector, you can refer to the provided HTML file (index.html) and JavaScript module (devtools.js) in this repository.
 
-## Compatibility
+###Compatibility
 
 This DevTools detector works in most modern web browsers. However, keep in mind that browser behavior may change over time, and this detector may need updates to remain effective.
 
-## License
+###License
 
 This project is licensed under the MIT License. Feel free to use it in your projects and customize it as needed.
