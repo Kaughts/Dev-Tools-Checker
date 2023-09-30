@@ -1,4 +1,4 @@
-# DevTools Detector
+### DevTools Detector
 
 This JavaScript module allows you to detect whether the browser's developer tools (DevTools) are open or closed, providing a simple way to determine if a user is inspecting your web page's code.
 
